@@ -5,8 +5,8 @@ from django.urls import path, include
 from .views import * 
 # (myapp ->lagbe na)
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    # path('admin/', admin.site.urls), (lagbe na)
     path("",include('myapp.urls'))
 
-    
+
 ]

@@ -1,3 +1,7 @@
 from django.db import models
 
 # Create your models here.
+class student (models.model):
+    name = models.CharField(max_length=255)
+    department = models.CharField(max_length=255)
+    roll = models.IntegerField()
