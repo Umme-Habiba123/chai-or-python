@@ -6,6 +6,35 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello {{name}}</h1>
+
+<h2>Striped Table</h2>
+<p>For zebra-striped tables, use the nth-child() selector and add a background-color to all even (or odd) table rows:</p>
+
+<table style="width:100%">
+  <tr>
+    <th>Name</th>
+    <th>Department</th>
+    <th>Roll</th>
+    <th>Semester</th>
+    <th>CGPA</th>
+   
+  </tr>
+  <tr>
+    (% for i in stu %)
+  </tr>
+
+   <tr>
+    <td>{{i.name}}</td>
+    <td>{{i.roll}}</td>
+    <td>{{i.department}}</td>
+    <td>{{i.semester}}</td>
+    <td>{{i.cgpa}}</td>
+    
+  </tr>
+  
+
+ 
+</table>
+
 </body>
 </html>

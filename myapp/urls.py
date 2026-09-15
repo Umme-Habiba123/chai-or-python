@@ -7,6 +7,7 @@ from .views import *
 urlpatterns = [
     # path('admin/', admin.site.urls), (lagbe na)
     path("",include('myapp.urls'))
+    path("addstudent/", addStudent name('addstudent'))
 
 
 ]
