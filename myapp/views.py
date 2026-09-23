@@ -1,11 +1,12 @@
 from django.shortcuts import render, redirect
 from .forms import StudentForm
 from .models import *
+from .models import Student
 
 # Create your views here.
 
 def home(request):
-    students = Student.object.all()
+    students = Student.objects.all()
     return render(request, 'index.html', {"name":students })
 
 # def addStudent(request):
